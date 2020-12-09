@@ -3,7 +3,7 @@ package Easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionTwoSum {
+public class SolutionTwoSum01 {
     public int[] twoSum(int[] nums, int target) {
 
         Map<Integer,Integer> hashMap = new HashMap<>();
