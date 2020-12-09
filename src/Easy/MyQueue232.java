@@ -4,7 +4,7 @@ import java.util.Stack;
 
 //请你仅使用两个栈实现先入先出队列。队列应当支持一般队列的支持的所有操作（push、pop、peek、empty）：
 //
-// 实现 MyQueue 类：
+// 实现 MyQueue232 类：
 //
 //
 // void push(int x) 将元素 x 推到队列的末尾
@@ -37,13 +37,13 @@ import java.util.Stack;
 //
 //
 //输入：
-//["MyQueue", "push", "push", "peek", "pop", "empty"]
+//["MyQueue232", "push", "push", "peek", "pop", "empty"]
 //[[], [1], [2], [], [], []]
 //输出：
 //[null, null, null, 1, 1, false]
 //
 //解释：
-//MyQueue myQueue = new MyQueue();
+//MyQueue232 myQueue = new MyQueue232();
 //myQueue.push(1); // queue is: [1]
 //myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
 //myQueue.peek(); // return 1
@@ -65,7 +65,7 @@ import java.util.Stack;
 //
 // Related Topics 栈 设计
 // 👍 255 👎 0
-public class MyQueue {
+public class MyQueue232 {
     public Stack<Integer> stackPutIn;
     public Stack<Integer> stackPutOut;
 
@@ -73,7 +73,7 @@ public class MyQueue {
     /**
      * Initialize your data structure here.
      */
-    public MyQueue() {
+    public MyQueue232() {
         stackPutIn = new Stack<>();
         stackPutOut = new Stack<>();
     }
